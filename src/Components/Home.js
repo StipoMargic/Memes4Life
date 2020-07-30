@@ -40,7 +40,7 @@ const Home = () => {
         })
       ).json();
 
-      history.push(`/memes?url=${response.data.url}`);
+      history.push(`/meme?url=${response.data.url}`);
     } catch (error) {
       console.log(error);
     }
